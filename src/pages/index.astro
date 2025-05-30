@@ -1,0 +1,43 @@
+---
+import '../styles/global.css';
+import pic from '../assets/adichan.jpeg';
+---
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Linktree</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  </head>
+  <body class="bg-gray-800 text-gray-800 flex items-center justify-center min-h-screen p-4">
+    <main class="max-w-md w-full bg-black rounded-2xl shadow-md p-6">
+      <div class="flex flex-col items-center">
+        <img src="/adichan.jpeg" alt="AdiCSetiawan" class="w-24 h-24 rounded-full border-4 border-blue-500 shadow-md" />
+        <h1 class="text-2xl font-semibold mt-4 text-white">Adi Chandra Setiawan</h1>
+        <p class="text-gray-600">@adic.setiawan</p>
+      </div>
+
+      <div class="mt-6 space-y-4">
+        <a href="https://github.com/adichun" target="_blank" class="block w-full text-center px-4 py-3 bg-gray-500 text-white rounded-xl hover:bg-gray-900 transition">
+          GITHUB
+        </a>
+        <a href="https://www.linkedin.com/in/adi-chandra-setiawan-16548548/" target="_blank" class="block w-full text-center px-4 py-3 bg-blue-500 text-white rounded-xl hover:bg-blue-600 transition">
+          LINKEDIN
+        </a>
+        <a href="mailto:setiawanadichan@gmail.com" class="block w-full text-center px-4 py-3 bg-yellow-500 text-white rounded-xl hover:bg-yellow-700 transition">
+          MESSAGE ME
+        </a>
+        <a href="https://adicsetiawan.vercel.app/" target="_blank" class="block w-full text-center px-4 py-3 bg-red-500 text-white rounded-xl hover:bg-red-900  transition">
+          PORTFOLIO
+        </a>
+		<a href="https://lynk.id/adichan" target="_blank" class="block w-full text-center px-4 py-3 bg-green-500 text-white rounded-xl hover:bg-green-900 animate-bounce transition">
+          LYNK.ID
+        </a>
+      </div>
+
+      <footer class="text-center text-sm text-gray-400 mt-6">
+        &copy; 2025 Adi Chandra Setiawan
+      </footer>
+    </main>
+  </body>
+</html>
